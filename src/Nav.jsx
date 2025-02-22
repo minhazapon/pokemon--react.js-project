@@ -32,7 +32,10 @@ function Nav() {
                             {navZ}
                         </ul>
                     </div>
-                    <a className="text-xl">Pokemon</a>
+                    <div className=" flex items-center gap-2 ">
+                        <img className=" h-[50px] " src="https://cdn-icons-png.flaticon.com/128/528/528101.png" alt="" />
+                        <a className=" font-bold text-3xl">Pokemon</a>
+                    </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
