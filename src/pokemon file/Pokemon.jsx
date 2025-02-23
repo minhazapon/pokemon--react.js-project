@@ -1,9 +1,23 @@
 
 //work api https://pokeapi.co/api/v2/pokemon?limit=124
-
 //github https://github.com/thapatechnical/pokemon_thapa_react/blob/master/src/Pokemon.jsx
 
+import axios from "axios"
+import { useEffect } from "react"
+import { useState } from "react"
+
 function Pokemon() {
+
+    const [pokemon, setPokemon] = useState([])
+
+    useEffect(() => {
+        axios.get('https://raw.githubusercontent.com/minhazapon/pokemon--react.js-project/refs/heads/main/public/pokemon.json')
+            .then(res => {
+                setPokemon(res.data)
+            })
+    }, [])
+
+
     return (
         <div className=" m-16 ">
 
