@@ -1,7 +1,4 @@
 
-//work api https://pokeapi.co/api/v2/pokemon?limit=124
-//github https://github.com/thapatechnical/pokemon_thapa_react/blob/master/src/Pokemon.jsx
-
 import axios from "axios"
 import { useEffect } from "react"
 import { useState } from "react"
@@ -10,7 +7,6 @@ import PokemonDetails from "./PokemonDetails"
 function Pokemon() {
 
     const [pokemon, setPokemon] = useState([])
-
     const [search, setSearch] = useState("")
 
     useEffect(() => {
@@ -23,8 +19,6 @@ function Pokemon() {
     const searchData = pokemon.filter((pokemonData) =>
         pokemonData.name.toLowerCase().includes(search.toLowerCase())
     )
-
-
 
     return (
         <div className=" m-16 ">
