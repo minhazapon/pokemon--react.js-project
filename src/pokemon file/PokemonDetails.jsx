@@ -8,7 +8,7 @@ function PokemonDetails({ pokemon }) {
         <div className=" border-[1px] p-5 transition-transform transform hover:scale-105">
             <div>
                 <div className=" flex justify-center">
-                    <img className=" h-[100px] " src={image} alt="" />
+                    <img className="h-[100px]" src={image} alt="" />
                 </div>
                 <div>
                     <p className=" text-center text-2xl mt-3 font-semibold font-mono ">{name}</p>

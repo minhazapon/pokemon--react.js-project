@@ -20,6 +20,8 @@ function Pokemon() {
             })
     }, [])
 
+
+
     return (
         <div className=" m-16 ">
             <div>
@@ -38,7 +40,7 @@ function Pokemon() {
                 </div>
                 {/* /////////////////////// */}
                 <div className=" flex justify-center mt-10">
-                    <div className=" grid grid-cols-4 gap-5 ">
+                    <div className=" grid  md:grid-cols-4 gap-5 ">
                         {
                             pokemon.map(pokemon => <PokemonDetails key={pokemon.id}
                                 pokemon={pokemon} ></PokemonDetails>)
