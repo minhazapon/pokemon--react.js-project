@@ -1,18 +1,8 @@
 
-/**
- *  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/19.svg",
-    "name": "Raticate",
-    "height": 0.7,
-    "weight": 18.5,
-    "speed": 97,
-    "experience": 145,
-    "attack": 81,
-    "abilities"
- */
 
 function PokemonDetails({ pokemon }) {
 
-    const { image, name, height, weight, speed, ex, attack, abilities } = pokemon
+    const { image, name, height, weight, speed, ex, attack } = pokemon
 
     return (
         <div className=" border-[1px] p-5  ">
