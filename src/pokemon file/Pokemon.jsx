@@ -18,7 +18,6 @@ function Pokemon() {
             })
     }, [])
 
-
     return (
         <div className=" m-16 ">
             <div>
@@ -27,7 +26,11 @@ function Pokemon() {
                     <p className=" text-center  text-xl md:text-6xl text-black font-serif ">Pokemon Power</p>
                 </div>
                 <div>
-                    <input className=" w-full border-[1px] border-red-100 mt-5 h-[50px] rounded-lg p-3 " placeholder="Search Here" type="search" name="search" id="" />
+                    <input className="w-full border-[1px] border-red-100 mt-5 h-[50px] rounded-lg p-3"
+                        placeholder="Search Here"
+                        type="search"
+                        name="search"
+                        id="" />
                 </div>
                 {/* /////////////////////// */}
                 <div>
