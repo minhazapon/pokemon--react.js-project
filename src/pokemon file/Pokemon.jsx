@@ -11,6 +11,8 @@ function Pokemon() {
 
     const [pokemon, setPokemon] = useState([])
 
+    const [search, setSearch] = useState("")
+
     useEffect(() => {
         axios.get('https://raw.githubusercontent.com/minhazapon/pokemon--react.js-project/refs/heads/main/public/pokemon.json')
             .then(res => {
@@ -28,6 +30,8 @@ function Pokemon() {
                 <div>
                     <input className="w-full border-[1px] border-red-100 mt-5 h-[50px] rounded-lg p-3"
                         placeholder="Search Here"
+                        value={search}
+                        onChange={(e) => setSearch(e.target.value)}
                         type="search"
                         name="search"
                         id="" />

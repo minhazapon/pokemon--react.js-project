@@ -5,7 +5,7 @@ function PokemonDetails({ pokemon }) {
     const { image, name, height, weight, speed, ex, attack } = pokemon
 
     return (
-        <div className=" border-[1px] p-5  ">
+        <div className=" border-[1px] p-5 transition-transform transform hover:scale-105">
             <div>
                 <div className=" flex justify-center">
                     <img className=" h-[100px] " src={image} alt="" />
