@@ -5,7 +5,7 @@
     "height": 0.4,
     "weight": 6.0,
     "speed": 90,
-    "experience": 112,
+    "ex": 112,
     "attack": 55,
     "abilities": ["Static", "Lightning Rod"]
   },
@@ -15,7 +15,7 @@
     "height": 1.0,
     "weight": 13.0,
     "speed": 60,
-    "experience": 142,
+    "ex": 142,
     "attack": 62,
     "abilities": ["Overgrow", "Chlorophyll"]
   },
@@ -25,7 +25,7 @@
     "height": 2.0,
     "weight": 100.0,
     "speed": 80,
-    "experience": 236,
+    "ex": 236,
     "attack": 82,
     "abilities": ["Overgrow", "Chlorophyll"]
   },
@@ -35,7 +35,7 @@
     "height": 0.6,
     "weight": 8.5,
     "speed": 65,
-    "experience": 62,
+    "ex": 62,
     "attack": 52,
     "abilities": ["Blaze", "Solar Power"]
   },
@@ -45,7 +45,7 @@
     "height": 1.1,
     "weight": 19.0,
     "speed": 80,
-    "experience": 142,
+    "ex": 142,
     "attack": 64,
     "abilities": ["Blaze", "Solar Power"]
   },
@@ -55,7 +55,7 @@
     "height": 1.7,
     "weight": 90.5,
     "speed": 100,
-    "experience": 240,
+    "ex": 240,
     "attack": 84,
     "abilities": ["Blaze", "Solar Power"]
   },
@@ -65,7 +65,7 @@
     "height": 0.5,
     "weight": 9.0,
     "speed": 43,
-    "experience": 63,
+    "ex": 63,
     "attack": 48,
     "abilities": ["Torrent", "Rain Dish"]
   },
@@ -75,7 +75,7 @@
     "height": 1.0,
     "weight": 22.5,
     "speed": 58,
-    "experience": 142,
+    "ex": 142,
     "attack": 63,
     "abilities": ["Torrent", "Rain Dish"]
   },
@@ -85,7 +85,7 @@
     "height": 1.6,
     "weight": 85.5,
     "speed": 78,
-    "experience": 239,
+    "ex": 239,
     "attack": 83,
     "abilities": ["Torrent", "Rain Dish"]
   },
@@ -95,7 +95,7 @@
     "height": 0.3,
     "weight": 2.9,
     "speed": 45,
-    "experience": 39,
+    "ex": 39,
     "attack": 30,
     "abilities": ["Shield Dust", "Run Away"]
   },
@@ -105,7 +105,7 @@
     "height": 0.7,
     "weight": 9.9,
     "speed": 30,
-    "experience": 72,
+    "ex": 72,
     "attack": 20,
     "abilities": ["Shed Skin"]
   },
@@ -115,7 +115,7 @@
     "height": 1.1,
     "weight": 32.0,
     "speed": 70,
-    "experience": 178,
+    "ex": 178,
     "attack": 45,
     "abilities": ["Compound Eyes", "Tinted Lens"]
   },
@@ -125,7 +125,7 @@
     "height": 0.3,
     "weight": 3.2,
     "speed": 50,
-    "experience": 39,
+    "ex": 39,
     "attack": 35,
     "abilities": ["Shield Dust", "Run Away"]
   },
@@ -135,7 +135,7 @@
     "height": 0.6,
     "weight": 10.0,
     "speed": 35,
-    "experience": 72,
+    "ex": 72,
     "attack": 25,
     "abilities": ["Shed Skin"]
   },
@@ -145,7 +145,7 @@
     "height": 1.0,
     "weight": 29.5,
     "speed": 75,
-    "experience": 178,
+    "ex": 178,
     "attack": 90,
     "abilities": ["Swarm", "Sniper"]
   },
@@ -155,7 +155,7 @@
     "height": 0.3,
     "weight": 1.8,
     "speed": 56,
-    "experience": 50,
+    "ex": 50,
     "attack": 45,
     "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"]
   },
@@ -165,7 +165,7 @@
     "height": 1.1,
     "weight": 30.0,
     "speed": 71,
-    "experience": 122,
+    "ex": 122,
     "attack": 60,
     "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"]
   },
@@ -175,7 +175,7 @@
     "height": 1.5,
     "weight": 39.5,
     "speed": 101,
-    "experience": 216,
+    "ex": 216,
     "attack": 80,
     "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"]
   },
@@ -185,7 +185,7 @@
     "height": 0.3,
     "weight": 3.5,
     "speed": 72,
-    "experience": 51,
+    "ex": 51,
     "attack": 56,
     "abilities": ["Run Away", "Guts", "Hustle"]
   },
@@ -195,7 +195,7 @@
     "height": 0.7,
     "weight": 18.5,
     "speed": 97,
-    "experience": 145,
+    "ex": 145,
     "attack": 81,
     "abilities": ["Run Away", "Guts", "Hustle"]
   },
@@ -205,7 +205,7 @@
     "height": 0.3,
     "weight": 2.0,
     "speed": 70,
-    "experience": 52,
+    "ex": 52,
     "attack": 60,
     "abilities": ["Keen Eye", "Sniper"]
   },
@@ -215,7 +215,7 @@
     "height": 1.2,
     "weight": 38.0,
     "speed": 100,
-    "experience": 155,
+    "ex": 155,
     "attack": 90,
     "abilities": ["Keen Eye", "Sniper"]
   }
