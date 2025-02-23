@@ -20,6 +20,10 @@ function Pokemon() {
             })
     }, [])
 
+    const searchData = pokemon.filter((pokemonData) =>
+        pokemonData.name.toLowerCase().includes(search.toLowerCase())
+    )
+
 
 
     return (
@@ -42,7 +46,7 @@ function Pokemon() {
                 <div className=" flex justify-center mt-10">
                     <div className=" grid  md:grid-cols-4 gap-5 ">
                         {
-                            pokemon.map(pokemon => <PokemonDetails key={pokemon.id}
+                            searchData.map(pokemon => <PokemonDetails key={pokemon.id}
                                 pokemon={pokemon} ></PokemonDetails>)
                         }
                     </div>
