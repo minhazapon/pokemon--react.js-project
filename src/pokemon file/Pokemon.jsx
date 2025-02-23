@@ -5,6 +5,7 @@
 import axios from "axios"
 import { useEffect } from "react"
 import { useState } from "react"
+import PokemonDetails from "./PokemonDetails"
 
 function Pokemon() {
 
@@ -20,9 +21,7 @@ function Pokemon() {
 
     return (
         <div className=" m-16 ">
-
             <div>
-
                 <div className=" flex justify-center items-center gap-2">
                     <img className=" h-[30px]  md:h-[60px] " src="https://cdn-icons-png.flaticon.com/128/188/188970.png" alt="" />
                     <p className=" text-center  text-xl md:text-6xl text-black font-serif ">Pokemon Power</p>
@@ -30,16 +29,15 @@ function Pokemon() {
                 <div>
                     <input className=" w-full border-[1px] border-red-100 mt-5 h-[50px] rounded-lg p-3 " placeholder="Search Here" type="search" name="search" id="" />
                 </div>
-
                 {/* /////////////////////// */}
-
                 <div>
                     <div>
-
-
+                        {
+                            pokemon.map(pokemon => <PokemonDetails key={pokemon.id}
+                                pokemon={pokemon} ></PokemonDetails>)
+                        }
                     </div>
                 </div>
-
             </div>
         </div >
     )
